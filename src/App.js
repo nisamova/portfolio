@@ -1,4 +1,26 @@
-import logo from './logo.svg';
+import React from "react"
+import HomePage from "./pages/HomePage"
+import ArticlePage from "./pages/ArticlePage"
+import PageNotFound from "./pages/PageNotFound"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+
+function App() {
+  return (
+    <>
+      <Router>
+        <Switch>
+          <Route path="/" component={HomePage} exact />
+          <Route path="/articles" component={ArticlePage} />
+          <Route component={PageNotFound} />
+        </Switch>
+      </Router>
+    </>
+  )
+}
+export default App
+
+/**import logo from './logo.svg';
+ * 
 import './App.css';
 
 function App() {
@@ -23,3 +45,4 @@ function App() {
 }
 
 export default App;
+*/
