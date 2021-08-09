@@ -6,8 +6,7 @@ export const Header = () => {
     <header className="header_main">
       <nav className="header_nav">
         <div className="header_logo">
-          <div className="spacer" />
-          <a href="/"> Nazokat </a>
+          <a href="/"> Nazokat Isamova </a>
         </div>
         <div className="header_nav_items">
           <ul>

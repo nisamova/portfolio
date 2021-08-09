@@ -7,6 +7,11 @@ footer {
   color: white;
   text-align: center;
 }
+@media only screen and (max-width: 992px) {
+  .footer {
+    position: static;
+  }
+}
 
 /* Colors for the Website 
 Blue: #4f5d75

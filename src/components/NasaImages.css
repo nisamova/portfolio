@@ -1,0 +1,37 @@
+.nasasection {
+  display: flex;
+  color: #2d3142;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1200px;
+}
+.nasasection > div {
+  flex: 1;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+  font-size: 18px;
+}
+img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+
+  /* -webkit-box-reflect: right;*/
+}
+
+@media only screen and (max-width: 992px) {
+  .nasasection {
+    flex-direction: column;
+    font-size: 20px;
+    padding-top: 5px;
+  }
+}
+
+/* Colors for the Website 
+Blue: #4f5d75
+Orange: #ef8354
+White: #ffffff
+Grey: #bfc0c0
+Dark/Black: #2d3142
+**/

@@ -4,6 +4,9 @@
   left: 0;
   width: 100%;
   background: #4f5d75;
+  margin: 0 auto;
+  padding: 0 auto;
+  font-size: 20px;
 }
 .header_nav {
   display: flex;
@@ -37,6 +40,11 @@
 }
 .header_nav_items li {
   padding: 0 0.5rem;
+}
+@media only screen and (max-width: 992px) {
+  .header_nav {
+    flex-direction: column;
+  }
 }
 
 /* Colors for the Website 
